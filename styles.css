@@ -4,6 +4,8 @@ body{
     height: 100%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background: linear-gradient(180deg,rgba(0,200,255,1),rgba(0,255,127,0.1));
+    padding:1.5rem;
+    overflow-x:hidden;
 }
 
 h1{
@@ -77,4 +79,24 @@ input,textarea{
     border-radius:0.5rem;
     border:none;
     height: 1.5rem;
+}
+
+.footext{
+    font-weight:700;
+    font-size: 0.70rem;
+}
+
+.socials{
+    margin-left: 45%;
+    width: 33%;
+}
+
+.linkedinpic,.githubpic,.FCC{
+    display: inline-block;
+
+}
+
+.FCC{
+    height: 3rem;
+    width: 3rem;
 }
