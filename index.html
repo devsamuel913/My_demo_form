@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <div class="signup-card">
+        <form action="freecodecamp.org" method="post">
+            <div class="form-group">
+                <label for="userEmail">Enter your email:
+                <input 
+                id="userEmail"
+                placeholder="Ex: something@gmail.com"
+                type="email">
+                </label>
+            </div>
+            <div class="form-group">
+                <label for="userName">Enter your username:
+                    <input 
+                    id="userName"
+                    placeholder="Ex: larrybighands44"
+                    type="text">
+                    </label>
+            </div>
+            <div class="form-group">
+                <label for="userPass">Enter your password:
+                    <input 
+                    id="userPass"
+                    placeholder="Ex: ##34rTsc"
+                    minlength="8"
+                    type="password">
+                    </label><!--pattern="##34rTsc"-->
+            </div>
+            <div class="form-group">
+                <label for="userPassTwo"> Confirm your password:
+                    <input 
+                    id="userPassTwo"
+                    type="password">
+                    </label>
+            </div>
+            <div class="form-group">
+                <p class="biotext">Add a biography:</p>
+                <textarea class="addBio" rows="8" cols="30" placeholder="I'm 55 years old and i was born in...">
+                </textarea>
+            </div>
+            <div class="termsandConds">
+                <label for="terms" id="termid">
+                <input 
+                class="inline"
+                id="terms"
+                type="checkbox" 
+                value="agree" 
+                required>I agree with the <a href="#">terms and conditions</a></label>
+                
+            </div>
+            <div class="termsandConds">
+                <label for="emails" id="newsid">
+                <input 
+                class="inline"
+                id="emails"
+                type="checkbox" 
+                value="Iwant" 
+                required>I want to receive the latest news</label>
+                
+            </div>
+            <button class="SUbutton" type="submit">Sign up</button>
+        </form>
+    </div>
+    
+</body>
+</html>

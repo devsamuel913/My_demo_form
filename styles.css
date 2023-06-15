@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: linear-gradient(180deg,rgba(0,200,255,1),rgba(0,255,127,0.1));
+}
+
+h1{
+    text-align:center;
+}
+
+input,label{
+    display: block;
+    margin-top: 1.3rem;
+    width:95%;
+}
+
+.form-group{
+    margin-top: 1.3rem;
+    margin-bottom: 1.3rem;
+}
+
+textarea{
+    width: 92%;
+    height: 18rem;
+}
+
+.inline{
+    width: unset;
+    display: inline;
+    margin:0 0.5rem 0 0 ;
+}
+
+label,.biotext{
+    font-size: 1.25rem;
+}
+
+label[id="termid"],label[id="newsid"]{
+    font-size: 1rem;
+}
+
+input{
+    height:1.2rem;
+    border:none;
+}
+
+.signup-card{
+    width: 33.33%;
+    height: auto;
+    margin-left: 33.33%;
+    margin-right:33.33%;
+    margin-bottom: 5rem;
+    background-color: brown;
+    padding: 1.4rem;
+    padding-left:2rem;
+    padding-right: 0.3rem ;
+    border-radius:1rem;
+    background-color: rgba(0,255,127,0.6);
+}
+
+.termsandConds{
+    margin-top: 1.3rem;
+    margin-bottom: 1.3rem;
+    
+}
+
+input,textarea{
+    border-radius:1rem;
+    padding: 0.1555rem;
+    padding-left: 0.25rem;
+}
+
+.SUbutton{
+    width: 50%;
+    margin-left: 20%;
+    border-radius:0.5rem;
+    border:none;
+    height: 1.5rem;
+}
